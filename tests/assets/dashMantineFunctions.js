@@ -79,3 +79,27 @@ dmcfuncs.radarTick = function ({ x, y, payload, textAnchor }) {
         `${payload.value}!`
     );
 };
+
+
+// TreeSelect function props
+dmcfuncs.treeSelectNode = function ({ node }) {
+    return React.createElement(
+        'span',
+        { className: 'custom-tree-node' },
+        '🌳 ' + node.label
+    );
+};
+
+dmcfuncs.treeSelectPill = function ({ node }) {
+    return React.createElement(
+        'span',
+        { className: 'custom-tree-pill' },
+        '✔ ' + node.label
+    );
+};
+
+dmcfuncs.treeSelectStartsWith = function (query, node) {
+    return String(node.label).toLowerCase().startsWith(query.toLowerCase());
+};
+
+dmcfuncs.treeSelectOverflow = (count) => `+${count} hidden`;
