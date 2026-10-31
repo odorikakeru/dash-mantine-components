@@ -105,6 +105,7 @@ import Autocomplete from './components/core/combobox/Autocomplete';
 import MultiSelect from './components/core/combobox/MultiSelect';
 import Select from './components/core/combobox/Select';
 import TagsInput from './components/core/combobox/TagsInput';
+import TreeSelect from './components/core/combobox/TreeSelect';
 import Grid from './components/core/grid/Grid';
 import GridCol from './components/core/grid/GridCol';
 import HoverCard from './components/core/hovercard/HoverCard';
@@ -383,6 +384,7 @@ export {
     TimelineItem,
     Title,
     Tree,
+    TreeSelect,
     Tooltip,
     UnstyledButton,
     VisuallyHidden,
