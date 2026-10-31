@@ -19,6 +19,7 @@ See the [Dash Mantine Components Migration Guide](https://www.dash-mantine-compo
 
 ### New Components
 
+- Added `DataList`, `DataListItem`, `DataListItemLabel`, and `DataListItemValue` for semantic description lists, with horizontal/vertical orientation, dividers, sizing, spacing, and label width controls.
 - Added `Pill` component. PR746
 - Added `Marquee` component. [PR 753](https://github.com/snehilvj/dash-mantine-components/pull/753) by @budescode 
 - Added `Splitter`: Provides a resizable split-pane layout. [PR750](https://github.com/snehilvj/dash-mantine-components/pull/753) by @datenzauberai
