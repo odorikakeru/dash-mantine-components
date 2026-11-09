@@ -1,5 +1,12 @@
 # Change Log
 
+# UNRELEASED
+
+### New Components
+
+- Added `RollingNumber` component. [PR 758](https://github.com/snehilvj/dash-mantine-components/pull/758) by @budescode
+- Added `Toggle` component. [PR 762](https://github.com/snehilvj/dash-mantine-components/pull/762) by @budescode
+
 # 3.0.0
 
 **See live examples and complete changelog in [Dash Mantine Components v3 Release](https://www.dash-mantine-components.com/release-3-0-0)**
