@@ -56,6 +56,7 @@ import Paper from './components/core/Paper';
 import Pill from './components/core/Pill';
 import Rating from './components/core/Rating';
 import RingProgress from './components/core/RingProgress';
+import RollingNumber from './components/core/RollingNumber';
 import ScrollArea from './components/core/scrollarea/ScrollArea';
 import ScrollAreaAutosize from './components/core/scrollarea/ScrollAreaAutosize';
 import SegmentedControl from './components/core/SegmentedControl';
@@ -92,6 +93,7 @@ import ButtonGroup from './components/core/button/ButtonGroup';
 import CopyButton from './components/core/button/CopyButton';
 import CustomCopyButton from './components/core/button/CustomCopyButton';
 import UnstyledButton from './components/core/button/UnstyledButton';
+import Toggle from './components/core/button/Toggle';
 import Card from './components/core/card/Card';
 import CardSection from './components/core/card/CardSection';
 import Checkbox from './components/core/checkbox/Checkbox';
@@ -339,6 +341,7 @@ export {
     RangeSlider,
     Rating,
     RingProgress,
+    RollingNumber,
     SemiCircleProgress,
     ScatterChart,
     ScrollArea,
@@ -383,6 +386,7 @@ export {
     Timeline,
     TimelineItem,
     Title,
+    Toggle,
     Tree,
     TreeSelect,
     Tooltip,
