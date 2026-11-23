@@ -183,6 +183,7 @@ import CarouselSlide from './components/extensions/carousel/CarouselSlide';
 import CodeHighlight from './components/extensions/codehighlight/CodeHighlight';
 import CodeHighlightTabs from './components/extensions/codehighlight/CodeHighlightTabs';
 import InlineCodeHighlight from './components/extensions/codehighlight/InlineCodeHighlight';
+import Lightbox from './components/extensions/lightbox/Lightbox';
 import Notification from './components/extensions/notifications/Notification';
 import NotificationProvider from './components/extensions/notifications/NotificationProvider';
 import NotificationContainer, {
@@ -194,6 +195,7 @@ import MantineProvider from './components/styles/MantineProvider';
 import ChipGroup from './components/core/chip/ChipGroup';
 import RichTextEditor from './components/extensions/richtexteditor/RichTextEditor';
 import { getEditor } from './utils/editorRegistry';
+import Schedule from './components/extensions/schedule/Schedule';
 import Typography from './components/styles/Typography';
 import DirectionProvider from './components/styles/DirectionProvider';
 import TableOfContents from "./components/core/TableOfContents"
@@ -302,6 +304,7 @@ export {
     MenuItem,
     MenuLabel,
     MenuTarget,
+    Schedule,
     SubMenu,
     SubMenuDropdown,
     SubMenuItem,
@@ -317,6 +320,7 @@ export {
     Notification,
     NotificationProvider,
     NotificationContainer,
+    Lightbox,
     NumberFormatter,
     NumberInput,
     Overlay,

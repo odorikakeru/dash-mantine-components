@@ -4,8 +4,21 @@
 
 ### New Components
 
+- Added `Lightbox` component. [PR 760](https://github.com/snehilvj/dash-mantine-components/pull/760) by @rudibroekhuizen
 - Added `RollingNumber` component. [PR 758](https://github.com/snehilvj/dash-mantine-components/pull/758) by @budescode
 - Added `Toggle` component. [PR 762](https://github.com/snehilvj/dash-mantine-components/pull/762) by @budescode
+- Added `Schedule` component. [PR 755](https://github.com/snehilvj/dash-mantine-components/pull/755) by @SchutteAndrew
+- Added `TreeSelect` component. [PR 775](https://github.com/snehilvj/dash-mantine-components/pull/775) by @odorikakeru
+
+### Changed
+
+- Changed the default `keepMountedMode` to "display-none" for components that support it. Set` keepMountedMode="activity"
+to opt in to React 19's Activity behavior. [PR 770](https://github.com/snehilvj/dash-mantine-components/pull/770) by @AnnMarieW
+
+### Fixed
+
+- Fix `CardSection` styling for horizontal and vertical `Card` layouts. [PR 766](https://github.com/snehilvj/dash-mantine-components/pull/766) by @AnnMarieW
+
 
 # 3.0.0
 
@@ -98,9 +111,10 @@ See the [Dash Mantine Components Migration Guide](https://www.dash-mantine-compo
 - Simplified state handling in several controlled components. [PR752 ](https://github.com/snehilvj/dash-mantine-components/pull/752) by AnnMarieW
 
 ### PRs for Mantine 9 Updates by @AnnMarieW
- - [#738](https://github.com/snehilvj/dash-mantine-components/pull/738)  Initial update including breaking changes.
- - [#746](https://github.com/snehilvj/dash-mantine-components/pull/746)  Adding props and new features (mostly from Mantine 9.0.0)
- - [#748](https://github.com/snehilvj/dash-mantine-components/pull/748)  Adding props and new features (mostly from Mantine 9.1 through 9.7)
+
+- [#738](https://github.com/snehilvj/dash-mantine-components/pull/738)  Initial update including breaking changes.
+- [#746](https://github.com/snehilvj/dash-mantine-components/pull/746)  Adding props and new features (mostly from Mantine 9.0.0)
+- [#748](https://github.com/snehilvj/dash-mantine-components/pull/748)  Adding props and new features (mostly from Mantine 9.1 through 9.7)
 
 # 2.8.1
 
