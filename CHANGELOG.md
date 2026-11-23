@@ -10,6 +10,7 @@
 - Added `Schedule` component. [PR 755](https://github.com/snehilvj/dash-mantine-components/pull/755) by @SchutteAndrew
 - Added `TreeSelect` component. [PR 775](https://github.com/snehilvj/dash-mantine-components/pull/775) by @odorikakeru
 - Added `FloatingWindow` and `FloatingWindowResizeHandle` components [PR 776](https://github.com/snehilvj/dash-mantine-components/pull/776) by @odorikakeru
+- Added `DataList` component. [PR 777](https://github.com/snehilvj/dash-mantine-components/pull/777) by @odorikakeru
 
 ### Changed
 
