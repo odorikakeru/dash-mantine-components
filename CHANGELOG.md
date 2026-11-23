@@ -9,6 +9,7 @@
 - Added `Toggle` component. [PR 762](https://github.com/snehilvj/dash-mantine-components/pull/762) by @budescode
 - Added `Schedule` component. [PR 755](https://github.com/snehilvj/dash-mantine-components/pull/755) by @SchutteAndrew
 - Added `TreeSelect` component. [PR 775](https://github.com/snehilvj/dash-mantine-components/pull/775) by @odorikakeru
+- Added `FloatingWindow` and `FloatingWindowResizeHandle` components [PR 776](https://github.com/snehilvj/dash-mantine-components/pull/776) by @odorikakeru
 
 ### Changed
 
@@ -39,8 +40,6 @@ See the [Dash Mantine Components Migration Guide](https://www.dash-mantine-compo
 
 ### New Components
 
-- Added `FloatingWindow` and `FloatingWindowResizeHandle` with dragging, viewport constraints, programmatic positioning, pointer/keyboard resizing, and Dash state reporting.
-- Added `DataList`, `DataListItem`, `DataListItemLabel`, and `DataListItemValue` for semantic description lists, with horizontal/vertical orientation, dividers, sizing, spacing, and label width controls.
 - Added `Pill` component. PR746
 - Added `Marquee` component. [PR 753](https://github.com/snehilvj/dash-mantine-components/pull/753) by @budescode 
 - Added `Splitter`: Provides a resizable split-pane layout. [PR750](https://github.com/snehilvj/dash-mantine-components/pull/753) by @datenzauberai
